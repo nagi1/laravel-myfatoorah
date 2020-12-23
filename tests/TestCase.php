@@ -3,8 +3,8 @@
 namespace Nagi1\MyFatoorah\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Orchestra\Testbench\TestCase as Orchestra;
 use Nagi1\MyFatoorah\MyFatoorahServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {
