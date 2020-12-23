@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Skeleton\Tests;
+namespace Nagi1\MyFatoorah\Tests;
 
 class ExampleTest extends TestCase
 {

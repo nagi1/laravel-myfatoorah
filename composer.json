@@ -1,37 +1,35 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": ":package_description",
+    "name": "nagi1/laravel-myfatoorah",
+    "description": "My Fatoorah integration with Laravel",
     "keywords": [
-        ":vendor_name",
-        ":package_name"
+        "nagi1",
+        "laravel-myfatoorah"
     ],
-    "homepage": "https://github.com/:vendor_name/:package_name",
+    "homepage": "https://github.com/nagi1/laravel-myfatoorah",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": "https://spatie.be",
+            "name": "Ahmed Nagi",
+            "email": "info@ahmednagi.com",
+            "homepage": "https://ahmednagi.com",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^7.4|^8.0",
-        "illuminate/contracts": "^8.0"
+        "php": "^7.4|^8.0"
     },
     "require-dev": {
-        "orchestra/testbench": "^6.0",
+        "orchestra/testbench": "^4.0|^5.0|^6.0",
         "phpunit/phpunit": "^9.3"
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src",
-            "Spatie\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Nagi1\\MyFatoorah\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Nagi1\\MyFatoorah\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -45,23 +43,13 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\Skeleton\\SkeletonServiceProvider"
+                "Nagi1\\MyFatoorah\\MyFatoorahServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "Spatie\\Skeleton\\SkeletonFacade"
+                "MyFatoorah": "Nagi1\\MyFatoorah\\MyFatoorahFacade"
             }
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true,
-    "funding": [
-        {
-            "type": "github",
-            "url": "https://github.com/sponsors/spatie"
-        },
-        {
-            "type": "other",
-            "url": "https://spatie.be/open-source/support-us"
-        }
-    ]
+    "prefer-stable": true
 }
